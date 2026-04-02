@@ -1,4 +1,4 @@
-# # RBAC Finance API (Django + DRF)
+# RBAC Finance API (Django + DRF)
 
 A clean and modular backend system for managing financial records and analytics.
 
