@@ -1,5 +1,16 @@
-venv/
+# Python
 __pycache__/
 *.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Database
 db.sqlite3
+
+# VS Code
 .vscode/
+
+# OS files
+.DS_Store
