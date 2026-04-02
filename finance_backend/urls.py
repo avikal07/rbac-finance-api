@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from django.http import JsonResponse
 
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 
@@ -29,7 +30,17 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 # ]
 
 
+def home(request):
+    return JsonResponse({
+        "status": "running",
+        "message": "Finance API is live 🚀",
+        "docs": "/api/docs/"
+    })
+
 urlpatterns = [
+    # Home Page
+    path("", home),
+
     path('admin/', admin.site.urls),
 
     # Docs
