@@ -1,11 +1,17 @@
 # RBAC Finance API (Django + DRF)
 
-A clean and modular backend system for managing financial records and analytics.
+A production-ready backend system for managing financial records and analytics, designed with a modular architecture and scalable service-layer pattern.
 
 Built using Django REST Framework, it implements **role-based access control (RBAC)** and a **service-layer architecture** to ensure scalability, maintainability, and clear separation of concerns.
 
-## 📸 API Overview
+## 🌐 Live API
 
+> ⚠️ This API is hosted on a free tier and may take ~30–60 seconds to respond on the first request (cold start).
+
+- 🔥 **Interactive API Docs (Swagger):** https://rbac-finance-api.onrender.com/api/docs/  
+- 🌍 **Base URL:** https://rbac-finance-api.onrender.com/
+
+## 📸 API Overview
 ### 🔐 Authentication
 
 <p align="center">
