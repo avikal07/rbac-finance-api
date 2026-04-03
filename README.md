@@ -15,7 +15,7 @@ Built using Django REST Framework, it implements **role-based access control (RB
 ### 🔐 Authentication
 
 <p align="center">
-  <img src="image/Backend_dashboard_auth.png" width="800"/>
+  <img src="assets/Backend_dashboard_auth.png" width="800"/>
 </p>
 
 ---
@@ -23,7 +23,7 @@ Built using Django REST Framework, it implements **role-based access control (RB
 ### 📊 Dashboard & Records APIs
 
 <p align="center">
-  <img src="image/Backend_records.png" width="800"/>
+  <img src="assets/Backend_records.png" width="800"/>
 </p>
 
 ---
@@ -31,7 +31,7 @@ Built using Django REST Framework, it implements **role-based access control (RB
 ### 📄 API Schema (Swagger)
 
 <p align="center">
-  <img src="image/Backend_schema.png" width="800"/>
+  <img src="assets/Backend_schema.png" width="800"/>
 </p>
 
 ---
